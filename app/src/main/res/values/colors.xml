@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#ffffff</color>
+    <color name="colorPrimaryDark">#b0aeaf</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="colorBackgroundBtn">#05C6F7</color>
+    <color name="colorBackground">#0B0F14</color>
+
+    <color name="colorCross">#F7DF0D</color>
+    <color name="colorCircle">#05C6F7</color>
+    <color name="colorCellDelimiter">#b0aeaf</color>
+
+    <color name="colorCircleMark">#FFE520</color>
+    <color name="colorCrossMark">#05C6F7</color>
+</resources>

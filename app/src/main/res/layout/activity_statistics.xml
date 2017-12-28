@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/statisticsLayout"
+    tools:context="ru.nsu.ccfit.boltava.tictactoe.ui.statistics.StatisticsActivity">
+
+    <TextView
+        android:id="@+id/victoryTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="27dp"
+        android:layout_marginStart="27dp"
+        android:layout_marginTop="79dp"
+        android:textSize="20sp"
+        android:text="Victory: " />
+
+    <TextView
+        android:id="@+id/lossTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/victoryTextView"
+        android:layout_alignBottom="@+id/victoryTextView"
+        android:layout_marginLeft="53dp"
+        android:layout_marginStart="53dp"
+        android:layout_toEndOf="@+id/victoryTextView"
+        android:textSize="20sp"
+        android:layout_toRightOf="@+id/victoryTextView"
+        android:text="Loss: " />
+
+    <TextView
+        android:id="@+id/winRateTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/victoryTextView"
+        android:layout_alignRight="@+id/victoryTextView"
+        android:layout_below="@+id/victoryTextView"
+        android:textSize="20sp"
+        android:layout_marginTop="138dp"
+        android:text="Win Rate: " />
+</RelativeLayout>

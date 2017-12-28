@@ -1,0 +1,7 @@
+<resources>
+    <dimen name="fab_margin">16dp</dimen>
+
+    <dimen name="min_button_width">150dp</dimen>
+    <dimen name="playground_mark_size">70dp</dimen>
+    <dimen name="playground_mark_stroke_width">4dp</dimen>
+</resources>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:adjustViewBounds="true"
+    android:id="@+id/playgroundCellLayout"
+    android:background="@color/colorBackground">
+
+    <ImageView
+        android:id="@+id/playgroundCell"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/circle"
+        android:adjustViewBounds="true"
+        android:contentDescription="PlaygroundCell"
+        android:padding="10dp"/>
+
+</RelativeLayout>

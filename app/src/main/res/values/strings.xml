@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name_title">TicTacToe</string>
+    <string name="title_activity_base">BaseActivity</string>
+
+
+    <string name="play_online_btn_text">Play online</string>
+    <string name="play_with_bot_btn_text">Play with a bot</string>
+    <string name="statistics_btn_text">Statistics</string>
+    <string name="my_turn_string">It is your turn now</string>
+    <string name="opponent_turn_string">Waiting for opponent to make a move</string>
+    <string name="loss_message_string">Game over. You\'ve lost.</string>
+    <string name="victory_message_string">Game over. You won!</string>
+</resources>
